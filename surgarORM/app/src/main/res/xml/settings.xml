@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="cat_color"
+        android:title="@string/cat_color_title">
+        <ListPreference
+            android:key="colorFondo"
+            android:title="@string/pref_colorFondo_name"
+            android:entryValues="@array/pref_colorFondo_valores"
+            android:entries="@array/pref_colorFondo_entradas"
+            android:defaultValue="BLANCO"/>
+        <ListPreference
+            android:key="colorTexto"
+            android:title="@string/pref_colorTexto_name"
+            android:entryValues="@array/pref_colorText_valores"
+            android:entries="@array/pref_colorText_entradas"
+            android:defaultValue="GRIS"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="cat_texto_titlo"
+        android:title="@string/cat_texto_title">
+        <ListPreference
+            android:key="sizeText"
+            android:title="@string/pref_sizeText_name"
+            android:defaultValue="14"
+            android:entryValues="@array/pref_sizeText_valores"
+            android:entries="@array/pref_sizeText_entradas"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

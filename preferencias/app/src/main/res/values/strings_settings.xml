@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- nombre de la actividad Preferencias -->
+    <string name="title_activity_setting">Preferencias</string>
+
+    <!-- titulo de colorFondo -->
+    <string name="pref_colorFondo_name">Color del Fondo</string>
+    <string-array name="pref_colorFondo_entradas">
+        <item>Blanco</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Gris</item>
+        <item>Amarillo</item>
+        <item>Rojo</item>
+    </string-array>
+    <string-array name="pref_colorFondo_valores">
+        <item>BLANCO</item>
+        <item>VERDE</item>
+        <item>AZUL</item>
+        <item>GRIS</item>
+        <item>AMARILLO</item>
+        <item>ROJO</item>
+    </string-array>
+
+    <!-- titulo color del texto -->
+    <string name="pref_colorTexto_name">Color del Texto</string>
+    <string-array name="pref_colorText_entradas">
+        <item>Blanco</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Gris</item>
+        <item>Amarillo</item>
+        <item>Rojo</item>
+    </string-array>
+
+    <string-array name="pref_colorText_valores">
+        <item>BLANCO</item>
+        <item>VERDE</item>
+        <item>AZUL</item>
+        <item>GRIS</item>
+        <item>AMARILLO</item>
+        <item>ROJO</item>
+    </string-array>
+
+    <!-- titulo tamaño texto -->
+    <string name="pref_sizeText_name">Tamaño Texto</string>
+    <string-array name="pref_sizeText_entradas">
+        <item>8ps</item>
+        <item>10ps</item>
+        <item>12ps</item>
+        <item>14ps</item>
+        <item>16ps</item>
+        <item>18ps</item>
+    </string-array>
+    <string-array name="pref_sizeText_valores">
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+    </string-array>
+    <string name="cat_color_title">Colores</string>
+    <string name="cat_texto_title">Tamaño Texto</string>
+
+    <string name="Preferencias">Preferencias</string>
+</resources>
